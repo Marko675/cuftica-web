@@ -28,6 +28,11 @@ const skillCategories = [
         icon: Wrench,
         skills: ["JetBrains IDEs", "Figma", "Postman", "Vite"],
     },
+    {
+        title: "Minecraft",
+        icon: Terminal,
+        skills: ["Plugin Development", "Behavior Packs", "Java", "JavaScript"],
+    },
 ];
 
 export function Skills() {
@@ -39,8 +44,8 @@ export function Skills() {
                         <span className="text-primary mr-2">02.</span>
                         <GlitchText text="Technical Arsenal" />
                     </h2>
-                    <div className="w-24 h-1 bg-primary/20 rounded-full">
-                        <div className="w-12 h-full bg-primary rounded-full"></div>
+                    <div className="w-24 h-1 bg-primary rounded-full flex justify-end">
+                        <div className="w-12 h-full bg-primary/20 rounded-full"></div>
                     </div>
                 </div>
 
