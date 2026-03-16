@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-white font-sans overflow-x-hidden;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface hover:bg-white/20 rounded-full;
+  }
+}
+
+.glass {
+  @apply backdrop-blur-md bg-white/5 border border-white/10;
+}
+
+.neon-text {
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+}
+
+.neon-border {
+  box-shadow: 0 0 10px rgba(0, 243, 255, 0.2);
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 3s linear infinite;
+}
