@@ -45,11 +45,11 @@ export function Hero() {
                     transition={{ delay: 2.5, duration: 0.5 }}
                     className="flex flex-col md:flex-row gap-4 justify-center items-center mt-8"
                 >
-                    <button className="group relative px-8 py-3 bg-primary text-black font-bold font-mono rounded hover:bg-primary/90 transition-all flex items-center gap-2 overflow-hidden">
+                    <a href="#projects" className="group relative px-8 py-3 bg-primary text-black font-bold font-mono rounded hover:bg-primary/90 transition-all flex items-center gap-2 overflow-hidden">
                         <Terminal size={18} />
                         View Projects
                         <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 mix-blend-overlay"></div>
-                    </button>
+                    </a>
 
                     <a href="mailto:marko@awaitquality.com" className="px-8 py-3 bg-transparent border border-white/20 hover:border-white/50 text-white font-mono rounded transition-all flex items-center gap-2 group">
                         Contact Me
