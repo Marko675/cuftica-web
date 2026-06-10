@@ -9,7 +9,7 @@ export function DiscordStatus({ className }: { className?: string }) {
 
     const user = data?.discord_user;
     const status = data?.discord_status;
-    const activity = data?.activities.find((a: any) => a.type === 0); // Playing game
+    const activity = data?.activities?.find((a: any) => a.type === 0); // Playing game
 
     const statusColors = {
         online: "bg-green-500",

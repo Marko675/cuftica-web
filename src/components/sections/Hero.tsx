@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { TypingEffect } from "../ui/TypingEffect";
-import { GlitchText } from "../ui/GlitchText";
 import { ArrowRight, Terminal } from "lucide-react";
 
 export function Hero() {
@@ -26,13 +25,13 @@ export function Hero() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.2, duration: 0.8 }}
                 >
-                    Hi, I’m <GlitchText text="Cuftica" className="bg-clip-text bg-gradient-to-r from-primary to-secondary" />
+                    Hi, I'm <span className="text-primary">Marko</span>
                 </motion.h1>
 
                 {/* Subtitle / Typing */}
                 <div className="text-xl md:text-2xl text-gray-400 font-light h-16 md:h-8">
                     <TypingEffect
-                        text="I build hosting platforms, panels, and modern web apps."
+                        text="Full-Stack Developer — Web Platforms, Mobile Apps & Hosting Systems."
                         speed={30}
                         delay={1}
                     />

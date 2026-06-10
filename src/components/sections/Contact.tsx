@@ -24,7 +24,7 @@ export function Contact() {
 
                 <div className="flex flex-wrap justify-center gap-6">
                     <a
-                        href="mailto:maki.marko.09@gmail.com"
+                        href="mailto:marko@awaitquality.com"
                         className="group flex items-center gap-3 px-6 py-4 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-primary/50 transition-all"
                     >
                         <Mail className="text-primary group-hover:scale-110 transition-transform" />
@@ -56,7 +56,7 @@ export function Contact() {
                 </div>
 
                 <footer className="mt-24 pt-8 border-t border-white/5 text-center text-gray-500 text-sm font-mono">
-                    <p>&copy; {new Date().getFullYear()} Cuftica. All systems normal.</p>
+                    <p>&copy; {new Date().getFullYear()} Marko Milovanović. All systems normal.</p>
                 </footer>
             </div>
         </section>

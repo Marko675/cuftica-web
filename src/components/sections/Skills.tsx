@@ -1,37 +1,37 @@
 import { motion } from "framer-motion";
 import { GlitchText } from "../ui/GlitchText";
-import { Database, Layout, Server, Terminal, Wrench } from "lucide-react";
+import { Code2, Database, Layout, Server, Smartphone, Terminal, Wrench, Cloud } from "lucide-react";
 
 const skillCategories = [
     {
         title: "Frontend",
         icon: Layout,
-        skills: ["React", "Vue.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
+        skills: ["React", "Next.js", "TypeScript", "JavaScript", "Responsive UI"],
     },
     {
         title: "Backend",
         icon: Server,
-        skills: ["Node.js", "PHP", "Laravel", "Python", "Go"],
+        skills: ["Node.js", "PHP/Laravel", "REST APIs", "Go", "Java"],
+    },
+    {
+        title: "Mobile",
+        icon: Smartphone,
+        skills: ["Flutter", "Java", "Firebase", "Admin Interfaces"],
     },
     {
         title: "Database",
         icon: Database,
-        skills: ["MySQL", "PostgreSQL", "Redis", "MongoDB"],
+        skills: ["MySQL", "PostgreSQL", "Firebase", "Redis"],
     },
     {
-        title: "DevOps & Hosting",
+        title: "Infrastructure",
         icon: Terminal,
-        skills: ["Docker", "Pterodactyl", "Linux", "Nginx", "Git"],
+        skills: ["Linux", "Docker", "Git", "CI/CD", "Deployment Automation"],
     },
     {
-        title: "Tools",
-        icon: Wrench,
-        skills: ["JetBrains IDEs", "Figma", "Postman", "Vite"],
-    },
-    {
-        title: "Minecraft",
-        icon: Terminal,
-        skills: ["Plugin Development", "Behavior Packs", "Java", "JavaScript"],
+        title: "Hosting Platforms",
+        icon: Cloud,
+        skills: ["Pterodactyl", "WHMCS", "Game Server Provisioning", "Cloudflare Workers"],
     },
 ];
 

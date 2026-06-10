@@ -10,37 +10,29 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        id: "pterodactyl-themes",
-        title: "Pterodactyl Themes",
-        description: "Custom UI themes for Pterodactyl Panel, focusing on dark mode aesthetics and improved UX.",
-        tags: ["CSS", "React", "Pterodactyl"],
-        link: "https://ant-design.awaitquality.com/"
-    },
-    {
-        id: "nexushosting",
-        title: "NexusHosting",
-        description: "Premium hosting services with a custom dashboard and automated billing integration.",
-        tags: ["PHP", "Pterodactyl", "WHMCS", "JS"],
+        id: "nexushosts",
+        title: "NexusHosts Platform",
+        description: "Full-stack hosting website with WHMCS API and Pterodactyl integration for automated game server provisioning, order flow, and deployment-focused hosting automation.",
+        tags: ["React", "PHP", "WHMCS", "Pterodactyl", "Docker"],
         link: "https://nexushosting.com"
     },
     {
-        id: "gensplus",
-        title: "GensPlus",
-        description: "A feature-rich Gens Tycoon plugin for Minecraft servers. Highly configurable with advanced generation mechanics.",
-        tags: ["Java", "Spigot", "Minecraft", "Plugin"],
-        link: "https://builtbybit.com/resources/gensplus-a-gens-tycoon-plugin.29368/"
+        id: "awaitquality-themes",
+        title: "AwaitQuality Pterodactyl Themes",
+        description: "Commercial Pterodactyl panel themes and custom integrations for hosting providers, built with production deployment workflows.",
+        tags: ["React", "TypeScript", "PHP/Laravel", "Docker", "Linux"],
+        link: "https://ant-design.awaitquality.com/"
     },
     {
-        id: "curseforge-importer",
-        title: "CurseForge Importer",
-        description: "Automated tool to import generic CurseForge modpacks into Pterodactyl servers.",
-        tags: ["PHP", "API Integration", "Automation"],
-        github: "https://github.com/Marko675"
+        id: "draw-together",
+        title: "Draw Together",
+        description: "Real-time collaborative drawing app with Firebase — live sessions via generated codes, shared interaction features, gallery management, and save/delete/set actions.",
+        tags: ["React", "Firebase", "Real-time", "Collaboration"],
     },
     {
-        id: "game-hosting-tools",
-        title: "Game Hosting Tools",
-        description: "Suite of utilities for game server management, including autoconfig generators.",
-        tags: ["JavaScript", "Node.js"],
-    }
+        id: "mobile-admin-apps",
+        title: "Mobile & Admin Apps",
+        description: "Mobile-oriented projects using Flutter, Java, and Firebase — backend APIs, admin interfaces, order/status handling, and production-focused app workflows.",
+        tags: ["Flutter", "Java", "Firebase", "REST APIs"],
+    },
 ];

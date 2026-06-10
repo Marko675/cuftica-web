@@ -23,15 +23,15 @@ export function About() {
                         transition={{ duration: 0.6 }}
                     >
                         <p className="text-gray-300 leading-relaxed mb-6">
-                            I'm <span className="text-white font-bold">Marko Milovanović</span> (aka <span className="text-primary">Cuftica</span>), a developer based in the digital void. Since 2021, I've been architecting hosting platforms, crafting high-performance UI components, and building tools that power thousands of game servers.
+                            I'm <span className="text-white font-bold">Marko Milovanović</span>, a full-stack developer based in <span className="text-primary">Bor, Serbia</span>. With 4+ years of freelance and client-facing experience, I build web platforms, hosting solutions, Pterodactyl-based products, deployment-focused tools, and mobile app projects.
                         </p>
                         <p className="text-gray-300 leading-relaxed mb-6">
-                            My workspace is where precise engineering meets creative chaos. I don't just write code; I build systems that live, breathe, and scale. Whether it's a Pterodactyl theme or a full-scale hosting dashboard, I obsess over every pixel and every prolonged millisecond of latency.
+                            My stack spans React/Next.js, Node.js, TypeScript, PHP/Laravel, Linux, Docker, Firebase, Flutter, and Java. I'm comfortable owning delivery from initial idea and UI to backend logic, infrastructure, deployment, and client communication.
                         </p>
 
                         <div className="grid grid-cols-2 gap-6 mt-8">
                             <div className="p-4 rounded-xl bg-white/5 border border-white/10 text-center">
-                                <div className="text-3xl font-bold font-mono text-primary mb-1">3+</div>
+                                <div className="text-3xl font-bold font-mono text-primary mb-1">4+</div>
                                 <div className="text-xs text-gray-400 uppercase tracking-wider">Years Exp</div>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/10 text-center">
@@ -55,24 +55,23 @@ export function About() {
                                     <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                                     <div className="w-3 h-3 rounded-full bg-green-500"></div>
                                 </div>
-                                <div className="ml-4 text-xs text-gray-500 font-mono">cuftica.json</div>
+                                <div className="ml-4 text-xs text-gray-500 font-mono">marko.json</div>
                             </div>
                             <pre className="text-sm font-mono text-gray-300 overflow-x-auto">
                                 <code>
                                     {`{
-  "name": "Cuftica",
-  "role": "Full Stack Developer",
-  "location": "Earth",
+  "name": "Marko Milovanović",
+  "role": "Full-Stack Developer",
+  "location": "Bor, Serbia",
   "status": "Building",
-  "hobbies": [
-    "Coding",
-    "Gaming",
-    "Music",
-    "UI Design"
+  "focus": [
+    "Web Platforms",
+    "Hosting Systems",
+    "Mobile Apps"
   ],
-  "traits": [
-    "Pixel Perfectionist",
-    "Performance Obsessed"
+  "languages": [
+    "Serbian (Native)",
+    "English (Fluent)"
   ]
 }`}
                                 </code>
