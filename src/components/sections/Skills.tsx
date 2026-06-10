@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { GlitchText } from "../ui/GlitchText";
-import { Code2, Database, Layout, Server, Smartphone, Terminal, Wrench, Cloud } from "lucide-react";
+import { Database, Layout, Server, Smartphone, Terminal, Cloud } from "lucide-react";
 
 const skillCategories = [
     {
